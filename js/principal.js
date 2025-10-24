@@ -74,3 +74,9 @@ titulo.addEventListener("click", function(){
 });
 
 
+titulo.addEventListener("click", mostramensagem);
+function mostramensgem(){
+   alert("Olá eu fui clicado.")
+}
+
+
