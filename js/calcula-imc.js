@@ -44,7 +44,7 @@ tdImc.textContent = imc.toFixed(2);
 function calculaImc (peso, altura){
    var imc = 0;
    var imc = peso / (altura * altura);
-   return imc; 
+   return imc.toFixed(2);
 
 }
 
@@ -53,4 +53,6 @@ titulo.addEventListener("click", mostraMensagem);
 function mostraMensagem(){
 alert("Olá eu fui clicado.")
 }
+
+func
 
